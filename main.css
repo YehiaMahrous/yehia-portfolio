@@ -841,6 +841,15 @@ ul {
   padding: 0.5rem 1rem !important;
 }
 
+/* Toggle Menu Icons */
+#menu-toggle:checked~label #icon-open {
+  display: none !important;
+}
+
+#menu-toggle:checked~label #icon-close {
+  display: block !important;
+}
+
 /* ==========================================================================
    Responsive Breakpoints
    ========================================================================== */
