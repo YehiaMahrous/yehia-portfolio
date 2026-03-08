@@ -824,19 +824,19 @@ ul {
 /* Mobile Menu Logic via Checkbox Hack */
 #menu-toggle:checked~#nav-menu {
   display: flex !important;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding-top: 6rem;
-  padding-bottom: 2rem;
-  overflow-y: auto;
-  background-color: rgba(15, 23, 42, 0.98);
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  padding-top: 6rem !important;
+  padding-bottom: 2rem !important;
+  overflow-y: auto !important;
+  background-color: rgba(15, 23, 42, 0.98) !important;
 }
 
 #nav-menu a {
   /* Ensure spacing between links on mobile */
-  margin: 1rem 0;
-  padding: 0.5rem 1rem;
+  margin: 1.5rem 0 !important;
+  padding: 0.5rem 1rem !important;
 }
 
 /* ==========================================================================
