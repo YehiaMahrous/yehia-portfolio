@@ -942,13 +942,16 @@ ul {
 
   #nav-menu {
     flex-direction: row !important;
-    gap: 2rem;
   }
 
   #nav-menu a {
     width: auto;
     margin: 0;
     padding: 0;
+  }
+
+  #nav-menu a+a {
+    margin-left: 2rem;
   }
 }
 
